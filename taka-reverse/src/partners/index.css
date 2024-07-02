@@ -19,12 +19,28 @@
 }
 h1{
     text-align: center;
+    margin-top: 2%;
 
 }
 p{
-    font-size: 20px;
+    font-size: 23px;
     text-align: center;
 }
+.mainimages{
+    margin-right: 4%;
+    margin-left: 4%;
+    padding: 150px;
+    padding-top: 60px;
+    background-color:white;
+    border-radius: 10px;
+    justify-content: center;
+    margin-top: 2%;   
+    height: 600px;
+}
+body{
+    background-color:rgb(223,224 ,215 );
+}
+
 @media screen and (max-width: 480px) {
     h1{
         text-align: center;
@@ -32,53 +48,88 @@ p{
     }
     .images{
         display: grid;
-        justify-content: center;
+        grid-template-columns: 1fr ;
+        
         
     }
     p{
         font-size: 16px;
     }
     .rotary{
-        width: 100%;
+        width:max-content;
         height: 50%;
+        margin-left: -17%;
+        margin-top: 2%;
+        
+    }
+    .karen{
+        width: 40%;
+        height: 50%; 
+        margin-left: -15%;
+    }
+    .page{
+        width: 40%;
+        height: 50%;
+        margin-top: -20%;
+        margin-left: -15%;
+    }
+       .mainimages{
+        background-color:white;
+        height: 700px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .mainimages {
+      padding: 50px;
+      padding-top: 20px;
+      height: 900px;
+    }
+  
+    p {
+      text-align: left;
+    }
+    .rotary{
+        width: 130%;
         margin-top: 2%;
     }
     .karen{
-        width: 100%;
-        height: 50%; 
+        width: 130%;
+
     
     }
     .page{
-        width: 100%;
-        height: 50%;
+        width: 130%;
+        
+
     }
-}
+  }
 @media screen and (min-width: 481px) and (max-width:564px){
     h1{
         text-align: center;
         font-size: 30px;
     }
     .images{
-        display: grid;
-        justify-content: center;
+        display: block;
+    
     
     }
-    p{
-        font-size: 20px;
-    }
+  
     .rotary{
-        width: 90%;
-        height: 30%;
+        width: 100%;
         margin-top: 2%;
     }
     .karen{
-        width: 90%;
-        height: 30%; 
+        width: 100%;
+        margin-top: 19%;
     
     }
     .page{
-        width: 90%;
-        height: 30%;
+        width: 100%;
+    }
+    .mainimages{
+        background-color:white;
+        height: 900px;
     }
 }
 @media screen and (min-width: 565px) and (max-width:768px){
@@ -96,17 +147,21 @@ p{
     } 
     .rotary{
         width: 120%;
-        height: 30%;
+      
         margin-top: 2%;
     }
     .karen{
         width: 120%;
-        height: 30%; 
+        
     
     }
     .page{
         width: 120%;
-        height: 30%;
+      
+    }
+    .mainimages{
+        background-color:white;
+        height: 900px;
     }
 }
 @media screen and (min-width: 769px) and (max-width:925px){
@@ -115,8 +170,8 @@ p{
         font-size: 45px;
     }
     .images{
+        justify-content: center;
         display: grid;
-        
 grid-template-columns: 1fr;
     }
     p{
@@ -124,22 +179,70 @@ grid-template-columns: 1fr;
         
     } 
     .rotary{
-        width: 50%;
-        height: 40%;
-        margin-left: 20%;
+        width: 120%;
+        margin-left: -10%;
     
     }
     .karen{
-        width: 50%;
-        height: 40%; 
-        margin-left: 20%;
+        width: 120%;
+        margin-left: -10%;
     }
     .page{
-        width: 50%;
-        height: 40%;
-        margin-left: 20%; 
+        width: 120%;
+        margin-left: -10%;
+    }
+    .mainimages{
+        background-color:white;
+        height: 1200px;
     }
 }
+@media screen and (min-width: 912px) and (max-width: 1000px) {
+    h1 {
+      text-align: center;
+      font-size: 55px;
+    }
+  
+    .images {
+      justify-content: center;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 20px;
+    }
+  
+    p {
+      font-size: 40px;
+    }
+  
+    .rotary {
+        width: 80%;
+        margin-left: 10%;
+        object-fit: contain;
+        height: 500px;
+        display: block;
+      }
+    .karen {
+        width: 80%;
+        margin-left: 10%;
+        object-fit: contain;
+        height: 500px;
+        display: block;
+        margin-top: -20%;
+      }
+    .page {
+      width: 80%;
+      margin-left: 10%;
+      object-fit: contain;
+      height: 500px;
+      display: block;
+      margin-top: -20%;
+    }
+  
+    .mainimages {
+     background-color:white;
+      padding: 40px 0;
+      height: 2000px;
+    }
+  }
 @media screen and (min-width: 926px) and (max-width:1024px){
     h1{
         text-align: center;
@@ -153,4 +256,9 @@ grid-template-columns: 1fr;
     p{
         font-size: 20px;
     } 
+    .mainimages{
+        background-color:white;
+        height: 290px;
+    }
 }
+
