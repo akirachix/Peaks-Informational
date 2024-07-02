@@ -3,9 +3,8 @@
     font-size: 200%;
     font-family: 'Courier New', Courier, monospace;
     margin-top: 50px;
-   
-
 }
+
 .image{
     width: 400px;
     height: 280px;
@@ -39,6 +38,22 @@
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     
+}
+#step-one p{
+    font-size: 18px;
+    color: #000;
+}
+#step-two p{
+    font-size: 18px;
+    color: #000;
+}
+#step-three p{
+    font-size: 18px;
+    color: #000;
+}
+#step-four p{
+    font-size: 18px;
+    color: #000;
 }
 
 

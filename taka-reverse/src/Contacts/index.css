@@ -2,7 +2,7 @@
     background-color: rgb(55, 97, 105);
     text-align: center;
 }
-h3{
+.footer h3{
     text-align: center;
     font-size: 40px;
     color: white;
@@ -14,7 +14,7 @@ h3{
     gap: 15%;
     text-align: center;
 }
-p{
+.footer p{
     font-size: 23px;
     font-weight: 350;
     color: white;
@@ -24,7 +24,7 @@ p{
     gap: 7%;
     justify-content: center;
 }
-.icon{
+.footer .icon{
     color: #FFFFFF;
     font-size: 30px;
 }
@@ -32,7 +32,7 @@ p{
 
 
 @media screen and (max-width: 480px) {
-    h3{
+   .footer h3{
         text-align: center;
         font-size: 25px;
     }
@@ -41,13 +41,13 @@ p{
         justify-content: center;
         gap: 0%;
     }
-    p{
+   .footer p{
         font-size: 16px;
     }
     
 }
 @media screen and (min-width: 481px) and (max-width:564px){
-    h3{
+   .footer h3{
         text-align: center;
         font-size: 30px;
     }
@@ -56,7 +56,7 @@ p{
         justify-content: center;
         gap: 2%;
     }
-    p{
+   .footer p{
         font-size: 20px;
     }
     .footer{
@@ -64,7 +64,7 @@ p{
     }
 }
 @media screen and (min-width: 565px) and (max-width:768px){
-    h3{
+  .footer h3{
         text-align: center;
         font-size: 40px;
     }
@@ -73,7 +73,7 @@ p{
         justify-content: center;
         gap: 1%;
     }
-    p{
+   .footer p{
         font-size: 25px;
     } 
     .footer{
@@ -81,7 +81,7 @@ p{
     }
 }
 @media screen and (min-width: 769px) and (max-width:925px){
-    h3{
+   .footer h3{
         text-align: center;
         font-size: 45px;
     }
@@ -90,7 +90,7 @@ p{
         justify-content: center;
         gap: 2%;
     }
-    p{
+   .footer p{
         font-size: 35px;
     } 
     .footer{
@@ -98,8 +98,7 @@ p{
     }
 }
 @media screen and (min-width: 926px) and (max-width:1024px){
-    h3{@media screen and (min-width: 926px) and (max-width:1024px){
-        h3{
+       .footer h3 {
             text-align: center;
             font-size: 35px;
         }
@@ -108,30 +107,15 @@ p{
             justify-content: center;
             gap: 5%;
         }
-        p{
+      .footer  p{
             font-size: 20px;
         } 
         .footer{
             height: 100%;
-        }
-    }
-        text-align: center;
-        font-size: 35px;
-    }
-    .contactInfo{
-        display: flex;
-        justify-content: center;
-        gap: 5%;
-    }
-    p{
-        font-size: 20px;
-    } 
-    .footer{
-        height: 100%;
-    }
+       }
 }
 @media screen and (min-width: 1025px) and (max-width:1300px){
-    h3{
+   .footer h3{
         text-align: center;
         font-size: 35px;
     }
@@ -140,7 +124,7 @@ p{
         justify-content: center;
         gap: 7%;
     }
-    p{
+   .footer p{
         font-size: 20px;
     } 
     .footer{
