@@ -13,18 +13,19 @@ function Contact(){
     return(
         <div className='footer'>
             <h3>Contact Us On</h3>
+            <br/>
             <div className='contactInfo'>
             <div>
-            <span><BsFillTelephoneFill size= '2.0rem' color='#FFFFFF' /></span>
+            <span className='icon'><BsFillTelephoneFill/></span>
                 <p>+254 793 244 456</p>
                 <p>+254 786 965 766</p>
             </div>
             <div>
-                <span><FaMapMarkerAlt size= '2.0rem' color='#FFFFFF'/></span>
+                <span className='icon'><FaMapMarkerAlt/></span>
                 <p>Unit no. 75 ReverseTaka Industry Nairobi</p>
             </div>
             <div >
-                <span><MdEmail size= '2.0rem' color='#FFFFFF'/></span>
+                <span className='icon'><MdEmail/></span>
                 <p>akwangdeu@gmail.com</p>
                 <p>natalywambui@gmail.com</p>
                 <p>kantaimercy@gmail.com</p>

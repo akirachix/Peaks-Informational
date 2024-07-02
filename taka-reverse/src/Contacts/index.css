@@ -12,6 +12,7 @@ h3{
     display: flex;
     justify-content: center;
     gap: 15%;
+    text-align: center;
 }
 p{
     font-size: 23px;
@@ -22,6 +23,10 @@ p{
     display: flex;
     gap: 7%;
     justify-content: center;
+}
+.icon{
+    color: #FFFFFF;
+    font-size: 30px;
 }
 
 
