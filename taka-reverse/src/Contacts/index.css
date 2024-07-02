@@ -1,11 +1,12 @@
 .footer{
-    background-color: rgb(41, 67, 76);
+    background-color: rgb(55, 97, 105);
     text-align: center;
 }
 h3{
     text-align: center;
     font-size: 40px;
     color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .contactInfo{
     display: flex;
@@ -14,6 +15,7 @@ h3{
 }
 p{
     font-size: 23px;
+    font-weight: 350;
     color: white;
 }
 .url{
