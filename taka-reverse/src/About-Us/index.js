@@ -5,7 +5,7 @@ import { FaHandHoldingHeart } from "react-icons/fa";
 import { BsMenuApp } from "react-icons/bs";
 const About = ()=>{
     return(
-        <div>
+        <div className='About'> 
             <div>
                 <h3> About us</h3>
                 <p> We are Reverse Taka, our mission is to reduce waste and promote environmental responsibility <br></br>by providing a platform for customers to purchase high quality recycled clothes.
@@ -14,20 +14,20 @@ The damage caused<br></br>by fast fashion to the environment is a big fact, so t
             <div className='icons'>
             <div>
                 <figure>
-                    <p className='img'><FaRecycle size='4.5rem'/></p>
+                    <p className='img'><FaRecycle size='3.5rem'/></p>
                     <figcaption> RECYCLING</figcaption>
                 </figure>
             </div>
             <div>
                 <figure>
-                    <p className='img'><FaHandHoldingHeart size='4.5rem'/></p>
+                    <p className='img'><FaHandHoldingHeart size='3.5rem'/></p>
                     <figcaption>ENVIRONMENTAL</figcaption>
                 </figure>
             </div>
             
             <div>
                 <figure>
-                    <p className='img'> <BsMenuApp size='4.5rem'/></p>
+                    <p className='img'> <BsMenuApp size='3.5rem'/></p>
                     <figcaption> PLATFORM</figcaption>
                 </figure>
             </div>

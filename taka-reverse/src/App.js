@@ -1,13 +1,19 @@
 
-import './App.css';
-import Contact from './Contacts';
-import Partners from './partners';
+import Howitworks from './Howitworks';
 import About from './About-Us';
+import './App.css';
+import Partners from './partners';
+import Contact from './Contacts';
+
+
 function App() {
   return (
-        <About/>
-    <Partners/>
+    <div>
+    <Howitworks/> 
+    <About/> 
+    <Partners/> 
     <Contact/>
+    </div>
   );
 }
-export default Recycle;
+export default App;

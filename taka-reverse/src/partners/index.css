@@ -17,14 +17,15 @@
     width: 20%;
     height: 30%;
 }
-h1{
+.partners h1{
     text-align: center;
     margin-top: 2%;
-
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-p{
+.partners p{
     font-size: 23px;
     text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .mainimages{
     margin-right: 4%;
@@ -32,17 +33,17 @@ p{
     padding: 150px;
     padding-top: 60px;
     background-color:white;
-    border-radius: 10px;
     justify-content: center;
     margin-top: 2%;   
     height: 600px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 body{
     background-color:rgb(223,224 ,215 );
 }
 
 @media screen and (max-width: 480px) {
-    h1{
+   .partners h1{
         text-align: center;
         font-size: 25px;
     }
@@ -52,8 +53,9 @@ body{
         
         
     }
-    p{
+    .partners p{
         font-size: 16px;
+        text-align: center;
     }
     .rotary{
         width:max-content;
@@ -76,6 +78,7 @@ body{
        .mainimages{
         background-color:white;
         height: 700px;
+        padding-top: 10%;
     }
 }
 
@@ -86,11 +89,12 @@ body{
       height: 900px;
     }
   
-    p {
-      text-align: left;
+  .partners  p {
+      text-align: center;
+      font-size: 18px;
     }
     .rotary{
-        width: 130%;
+        width: 120%;
         margin-top: 2%;
     }
     .karen{
@@ -105,14 +109,12 @@ body{
     }
   }
 @media screen and (min-width: 481px) and (max-width:564px){
-    h1{
+   .partners h1{
         text-align: center;
         font-size: 30px;
     }
     .images{
         display: block;
-    
-    
     }
   
     .rotary{
@@ -133,7 +135,7 @@ body{
     }
 }
 @media screen and (min-width: 565px) and (max-width:768px){
-    h1{
+   .partners h1{
         text-align: center;
         font-size: 40px;
     }
@@ -142,7 +144,7 @@ body{
         justify-content: center;
     
     }
-    p{
+   .partners p{
         font-size: 25px;
     } 
     .rotary{
@@ -165,16 +167,16 @@ body{
     }
 }
 @media screen and (min-width: 769px) and (max-width:925px){
-    h1{
+   .partners h1{
         text-align: center;
         font-size: 45px;
     }
     .images{
         justify-content: center;
         display: grid;
-grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
     }
-    p{
+   .partners p{
         font-size: 35px;
         
     } 
@@ -197,7 +199,7 @@ grid-template-columns: 1fr;
     }
 }
 @media screen and (min-width: 912px) and (max-width: 1000px) {
-    h1 {
+   .partners h1 {
       text-align: center;
       font-size: 55px;
     }
@@ -209,7 +211,7 @@ grid-template-columns: 1fr;
       grid-gap: 20px;
     }
   
-    p {
+   .partners p {
       font-size: 40px;
     }
   
@@ -244,7 +246,7 @@ grid-template-columns: 1fr;
     }
   }
 @media screen and (min-width: 926px) and (max-width:1024px){
-    h1{
+   .partners h1{
         text-align: center;
         font-size: 35px;
     }
@@ -253,12 +255,13 @@ grid-template-columns: 1fr;
         justify-content: center;
         gap: 5%;
     }
-    p{
+   .partners p{
         font-size: 20px;
     } 
     .mainimages{
         background-color:white;
         height: 290px;
     }
+    
 }
 
