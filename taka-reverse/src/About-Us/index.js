@@ -14,20 +14,20 @@ The damage caused<br></br>by fast fashion to the environment is a big fact, so t
             <div className='icons'>
             <div>
                 <figure>
-                    <p className='img'><FaRecycle size='4.5rem'/></p>
+                    <p className='img'><FaRecycle size='3.5rem'/></p>
                     <figcaption> RECYCLING</figcaption>
                 </figure>
             </div>
             <div>
                 <figure>
-                    <p className='img'><FaHandHoldingHeart size='4.5rem'/></p>
+                    <p className='img'><FaHandHoldingHeart size='3.5rem'/></p>
                     <figcaption>ENVIRONMENTAL</figcaption>
                 </figure>
             </div>
             
             <div>
                 <figure>
-                    <p className='img'> <BsMenuApp size='4.5rem'/></p>
+                    <p className='img'> <BsMenuApp size='3.5rem'/></p>
                     <figcaption> PLATFORM</figcaption>
                 </figure>
             </div>

@@ -16,9 +16,7 @@
     margin-left: 10%;
     margin-top: 3%;
     color: #000;
-    
-    
-  
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .About .img{
     height: 150px;
@@ -30,10 +28,12 @@
     text-align: center;
     padding-top: 5%;
     font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 figcaption{
     font-size: 25px;
     text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
  @media screen and ( min-width:280px ) and (max-width:675px){
    .About .icons{
@@ -49,7 +49,7 @@ figcaption{
         margin-left: 10%;
         margin-top: 1%;
 
-        font-size: 17px;
+        font-size: 25px;
         margin-left: 5%;
         margin-right: 5%;
         
@@ -88,22 +88,22 @@ figcaption{
         grid-template-columns: auto ;
     
     }
-   .About p{
+   .About  p{
         font-size: 30px;
         margin-left: 10%;
         margin-top: 1%;
 
-        font-size: 20px;
+        font-size: 30px;
         margin-left: 4%;
         margin-right: 4%;
         
       
     }
    .About img{
-        height: 100px;
-        width: 100px;
+        height: 80px;
+        width: 80px;
         justify-content: space-between;
-        gap: 40%;
+        gap: 20%;
 
         height: 85px;
         width: 85px;
@@ -246,7 +246,6 @@ figcaption{
         display: flex;
         justify-content: center;
         white-space: 50px;
-
         flex-wrap: wrap;
     
     }
@@ -255,28 +254,29 @@ figcaption{
         margin-left: 10%;
         margin-top: 1%;
 
-        font-size: 8px;
+        font-size: 17px;
         margin-left: 1%;
+        text-align: center;
         
         
       
     }
    .About .img{
-        height: 150px;
-        width: 150px;
-        justify-content: space-between;
-        gap: 40%;
+        height: 100px;
+        width: 100px;
+        text-align: center;
+        gap: 8%;
     }
    .About h3{
         margin-bottom: 10%;
         text-align: center;
         margin-bottom: 1%;
-        margin-top: 1%;
+        margin-top: 2%;
         font-size: 25px;
-        font-size: 20px;
+        font-size: 30px;
     }
     figcaption{
-        font-size: 25px;
+        font-size: 20px;
         text-align: center;
     }
 

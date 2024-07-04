@@ -1,7 +1,7 @@
 .howitworks{
     text-align: center;
     font-size: 200%;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top: 50px;
 }
 
@@ -19,25 +19,24 @@
 }
 #step-one{
     text-align: center;
-   font-family: 'Courier New', Courier, monospace;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   
 }
 #step-two{
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     gap: 20px;
 }
 
 #step-three{
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
 }
 
 #step-four{
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #step-one p{
     font-size: 18px;
