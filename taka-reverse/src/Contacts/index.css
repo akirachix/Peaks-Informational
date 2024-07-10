@@ -1,0 +1,138 @@
+.footer{
+    background-color: rgb(55, 97, 105);
+    text-align: center;
+}
+.footer h3{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.contactInfo{
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    text-align: center;
+}
+.footer p{
+    font-size: 23px;
+    font-weight: 350;
+    color: white;
+}
+.url{
+    display: flex;
+    gap: 7%;
+    justify-content: center;
+}
+.footer .icon{
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+
+
+@media screen and (max-width: 480px) {
+   .footer h3{
+        text-align: center;
+        font-size: 25px;
+    }
+    .contactInfo{
+        display: grid;
+        justify-content: center;
+        gap: 0%;
+    }
+   .footer p{
+        font-size: 16px;
+    }
+    
+}
+@media screen and (min-width: 481px) and (max-width:564px){
+   .footer h3{
+        text-align: center;
+        font-size: 30px;
+    }
+    .contactInfo{
+        display: grid;
+        justify-content: center;
+        gap: 2%;
+    }
+   .footer p{
+        font-size: 20px;
+    }
+    .footer{
+        margin: 0;
+    }
+}
+@media screen and (min-width: 565px) and (max-width:768px){
+  .footer h3{
+        text-align: center;
+        font-size: 40px;
+    }
+    .contactInfo{
+        display: grid;
+        justify-content: center;
+        gap: 1%;
+    }
+   .footer p{
+        font-size: 25px;
+    } 
+    .footer{
+        height: 100%;
+    }
+}
+@media screen and (min-width: 769px) and (max-width:925px){
+   .footer h3{
+        text-align: center;
+        font-size: 45px;
+    }
+    .contactInfo{
+        display: grid;
+        justify-content: center;
+        gap: 2%;
+    }
+   .footer p{
+        font-size: 35px;
+    } 
+    .footer{
+        height: 100%;
+    }
+}
+@media screen and (min-width: 926px) and (max-width:1024px){
+       .footer h3 {
+            text-align: center;
+            font-size: 35px;
+        }
+        .contactInfo{
+            display: flex;
+            justify-content: center;
+            gap: 5%;
+        }
+      .footer  p{
+            font-size: 20px;
+        } 
+        .footer{
+            height: 100%;
+       }
+}
+@media screen and (min-width: 1025px) and (max-width:1300px){
+   .footer h3{
+        text-align: center;
+        font-size: 35px;
+    }
+    .contactInfo{
+        display: flex;
+        justify-content: center;
+        gap: 7%;
+    }
+   .footer p{
+        font-size: 20px;
+    } 
+    .footer{
+        height: 100%;
+    }
+}
+
+
+
+
+

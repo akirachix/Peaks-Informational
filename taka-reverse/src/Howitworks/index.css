@@ -1,0 +1,136 @@
+.howitworks{
+    text-align: center;
+    font-size: 200%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 50px;
+}
+
+.image{
+    width: 300px;
+    height: 280px;
+    border-radius: 25px;
+}
+
+#container{
+    display: flex;
+    gap: 4%;
+    
+  
+}
+#step-one{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+#step-two{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    gap: 20px;
+}
+
+#step-three{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+#step-four{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#step-one p{
+    font-size: 18px;
+    color: #000;
+}
+#step-two p{
+    font-size: 18px;
+    color: #000;
+}
+#step-three p{
+    font-size: 18px;
+    color: #000;
+}
+#step-four p{
+    font-size: 18px;
+    color: #000;
+}
+
+
+@media screen and (max-width: 768px) {
+    .howitworks{
+        font-size: 200%;
+    }
+    .image{
+        width: 250px;
+        height: 300px;
+    }
+    #container{
+        flex-direction: column;
+        padding: 2%;
+    }
+    #step-one, #step-two, #step-three, #step-four{
+        font-size: 16px;
+    }
+   
+    #step-one h2{
+        font-size: 18px;
+    }
+    #step-two h2{
+        font-size: 18px;
+    }
+    #step-three h2{
+        font-size: 18px;
+    }
+    #step-four h2{
+        font-size: 18px;
+    }
+    
+    
+    
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 1025px) {
+    .howitworks {
+        font-size: 220%;
+       
+    }
+    .image {
+        width: 180px;
+        height: 250px;
+    }
+    #container {
+        flex-direction: flex;
+ 
+    }
+    #step-one, #step-two, #step-three, #step-four {
+        font-size: 18px;
+    
+    }
+
+}
+
+
+@media only screen and (min-width: 1026px) and (max-width: 1280px){
+    .howitworks {
+        font-size: 250%;
+        margin-left: 5%;
+        text-align: center;
+        
+    }
+    .image {
+        width: 180px;
+        height: 250px;
+    }
+    #container {
+        display: flex;
+        padding: 4%;
+        
+    }
+    #step-one, #step-two, #step-three, #step-four {
+        font-size: 18px;
+        padding-right: 30px;
+    }
+    
+
+}

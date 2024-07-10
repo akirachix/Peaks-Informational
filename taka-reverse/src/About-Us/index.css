@@ -1,0 +1,363 @@
+.About{
+    background-color: aliceblue;
+    margin-right: 4%;
+    margin-left: 4%;
+    height: 890px;
+}
+.About .icons{
+    display: flex;
+    justify-content: center;
+    white-space: 50px;
+
+
+}
+.About p{
+    font-size: 30px;
+    margin-left: 10%;
+    margin-top: 3%;
+    color: #000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.About .img{
+    height: 150px;
+    width: 150px;
+    justify-content: space-between;
+    gap: 40%;
+}
+.About h3{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+figcaption{
+    font-size: 25px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ @media screen and ( min-width:280px ) and (max-width:675px){
+   .About .icons{
+        display: flex;
+        justify-content: center;
+        white-space: 50px;
+        display: grid;
+        grid-template-columns: auto ;
+    
+    }
+   .About p{
+        font-size: 30px;
+        margin-left: 10%;
+        margin-top: 1%;
+
+        font-size: 25px;
+        margin-left: 5%;
+        margin-right: 5%;
+        
+      
+    }
+   .About img{
+       
+
+        height: 70rem;
+        width: 500rem;
+    }
+   .About h3{
+        margin-bottom: 10%;
+        text-align: center;
+        margin-bottom: 1%;
+        margin-top: 12%;
+        font-size: 25px;
+
+        font-size: 17px;
+    }
+    figcaption{
+        font-size: 25px;
+        font-size: 17px;
+        text-align: center;
+    }
+   
+  
+ }
+ @media screen and ( min-width:412px ) and (max-width:915px){
+  .About .icons{
+        display: flex;
+        justify-content: center;
+        white-space: 50px;
+
+        display: grid;
+        grid-template-columns: auto ;
+    
+    }
+   .About  p{
+        font-size: 30px;
+        margin-left: 10%;
+        margin-top: 1%;
+
+        font-size: 30px;
+        margin-left: 4%;
+        margin-right: 4%;
+        
+      
+    }
+   .About img{
+        height: 80px;
+        width: 80px;
+        justify-content: space-between;
+        gap: 20%;
+
+        height: 85px;
+        width: 85px;
+    }
+  .About h3{
+        margin-bottom: 10%;
+        text-align: center;
+        margin-bottom: 1%;
+        margin-top: 12%;
+        font-size: 25px;
+    }
+    figcaption{
+        font-size: 25px;
+        font-size: 20px;
+        text-align: center;
+
+    } 
+}
+ 
+@media screen and ( min-width:412px ) and (max-width:915px){
+  .About .icons{
+        display: flex;
+        justify-content: center;
+        white-space: 50px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    
+    }
+  .About p{
+        font-size: 30px;
+        margin-left: 10%;
+        margin-top: 1%;
+
+        font-size: 32px;
+        margin-left: 5%;
+        margin-right: 5%;
+        
+      
+    }
+   .About .img{
+        height: 150px;
+        width: 150px;
+        justify-content: space-between;
+        gap: 40%;
+    }
+   .About h3{
+        margin-bottom: 10%;
+        text-align: center;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        font-size: 25px;
+    }
+    figcaption{
+        font-size: 25px;
+        text-align: center;
+    }
+
+
+}
+
+@media screen and ( min-width:912px ) and (max-width:1368px){
+  .About .icons{
+        display: flex;
+        justify-content: center;
+        white-space: 50px;
+    
+    }
+   .About p{
+        font-size: 30px;
+        margin-left: 10%;
+        margin-top: 1%;
+
+        font-size: 40px;
+        
+        
+      
+    }
+  .About .img{
+        height: 150px;
+        width: 150px;
+        justify-content: space-between;
+        gap: 40%;
+    }
+   .About h3{
+        margin-bottom: 10%;
+        text-align: center;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        font-size: 25px;
+    }
+    figcaption{
+        font-size: 25px;
+        text-align: center;
+    }
+}
+@media screen and ( min-width:540px ) and (max-width:720px){
+   .About .icons{
+        display: flex;
+        justify-content: center;
+       
+        display: grid;
+        grid-template-rows: auto;
+    
+    }
+  .About  p{
+        font-size: 30px;
+        margin-left: 10%;
+        margin-top: 1%;
+
+        font-size: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+        
+        
+      
+    }
+ .About .img{
+        height: 150px;
+        width: 150px;
+        justify-content: space-between;
+        gap: 40%;
+
+        gap: 10%;
+    }
+   .About h3{
+        margin-bottom: 10%;
+        text-align: center;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        font-size: 25px;
+    }
+    figcaption{
+        font-size: 25px;
+        text-align: center;
+    }
+}
+
+@media screen and ( min-width:280px ) and (max-width:653px){
+   .About .icons{
+        display: flex;
+        justify-content: center;
+        white-space: 50px;
+        flex-wrap: wrap;
+    
+    }
+   .About p{
+        font-size: 30px;
+        margin-left: 10%;
+        margin-top: 1%;
+
+        font-size: 17px;
+        margin-left: 1%;
+        text-align: center;
+        
+        
+      
+    }
+   .About .img{
+        height: 100px;
+        width: 100px;
+        text-align: center;
+        gap: 8%;
+    }
+   .About h3{
+        margin-bottom: 10%;
+        text-align: center;
+        margin-bottom: 1%;
+        margin-top: 2%;
+        font-size: 25px;
+        font-size: 30px;
+    }
+    figcaption{
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+}
+
+@media screen and ( min-width:600px ) and (max-width:1024px){
+   .About .icons{
+        display: flex;
+        justify-content: center;
+        white-space: 50px;
+    
+    }
+   .About p{
+        margin-left: 10%;
+        margin-top: 1%;
+        margin-left: 5%;
+        margin-right: 5%;
+        
+        font-size: x-small;
+        
+        
+      
+    }
+   .About .img{
+        height: 150px;
+        width: 150px;
+        justify-content: space-between;
+        gap: 40%;
+    }
+ .About h3{
+        margin-bottom: 10%;
+        text-align: center;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        font-size: 25px;
+    }
+    figcaption{
+        font-size: 20px;
+        text-align: center;
+        
+    }
+
+
+}
+@media screen and ( min-width:800px ) and (max-width:1300px){
+   .About .icons{
+        display: flex;
+        justify-content: center;
+        white-space: 50px;
+    
+    }
+   .About p{
+        font-size: 30px;
+        margin-left: 10%;
+        margin-top: 1%;
+
+        margin-left: 5%;
+        font-size: 20px;
+        
+        
+      
+    }
+    .About .img{
+        height: 150px;
+        width: 150px;
+        justify-content: space-between;
+        justify-content: center;
+    }
+   .About h3{
+        margin-bottom: 10%;
+        text-align: center;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        font-size: 25px;
+    }
+    figcaption{
+        font-size: 25px;
+        text-align: center;
+
+        font-size: 18px;
+    }
+}
