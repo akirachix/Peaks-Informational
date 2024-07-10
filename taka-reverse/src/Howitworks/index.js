@@ -4,6 +4,7 @@ import './index.css'
 
 const Howitworks = ()  =>{
     return(
+        
         <div id='howitworks-container'>
         <div>
             <h1 className='howitworks'>How It Works </h1>

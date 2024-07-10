@@ -1,6 +1,7 @@
 import './index.css'
 const Partners =()=>{
     return(
+        
         <div className='partners'>  
             <h1>PARTNERSHIP</h1> 
         <div className='mainimages'>
