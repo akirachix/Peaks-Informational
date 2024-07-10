@@ -24,6 +24,7 @@
 }
 .partners p{
     font-size: 23px;
+    color: #000;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -38,8 +39,14 @@
     height: 600px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-body{
+
+
+body:not(.LandingPage){
     background-color:rgb(223,224 ,215 );
+ 
+}
+body.LandingPage{
+    margin: 0;
 }
 
 @media screen and (max-width: 480px) {
@@ -245,7 +252,7 @@ body{
       height: 2000px;
     }
   }
-@media screen and (min-width: 926px) and (max-width:1024px){
+@media screen and (min-width: 926px) and (max-width:1300px){
    .partners h1{
         text-align: center;
         font-size: 35px;

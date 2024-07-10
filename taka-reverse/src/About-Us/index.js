@@ -5,6 +5,8 @@ import { FaHandHoldingHeart } from "react-icons/fa";
 import { BsMenuApp } from "react-icons/bs";
 const About = ()=>{
     return(
+        
+        
         <div className='About'> 
             <div>
                 <h3> About us</h3>

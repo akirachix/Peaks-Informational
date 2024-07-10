@@ -7,6 +7,7 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 
 function Contact(){
     return(
+        
         <div className='footer'>
             <h3>Contact Us On</h3>
             <br/>

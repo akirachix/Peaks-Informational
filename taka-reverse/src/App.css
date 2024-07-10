@@ -1,6 +1,10 @@
-body{
-  background-color: rgb(223,224,215);
+/* body:not(.LandingPage){
+  background-color:rgb(223,224 ,215 );
+  height: 100%;
 }
+body.LandingPage{
+  margin: 0;
+} */
 .App {
   text-align: center;
 }
