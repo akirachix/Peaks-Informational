@@ -3,8 +3,8 @@ const Partners =()=>{
     return(
         
 
-        <div id='Partners'>
-        <div className='partners'>  
+        
+        <div id='Partners'>  
             <h1>PARTNERSHIP</h1> 
         <div className='mainimages'>
            <div className='images'>
@@ -17,7 +17,7 @@ const Partners =()=>{
         </div>
         </div>
         </div>
-        </div>
+        
     )
 }
 export default Partners

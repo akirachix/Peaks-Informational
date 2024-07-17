@@ -23,7 +23,7 @@ function Navbar(){
 
 
     return(
-        <div className='landingPage'>
+        <div id='landingPage'>
         <div className='Navbar-container'>
             <div className='logo-image'>
             <img src='/media/logo.png' alt='logo' className='logo-image'/>
@@ -38,7 +38,7 @@ function Navbar(){
                 <a href="# howitworks-container" onClick={(e)=> {e.preventDefault();scrollToSection ('howitworks-container');}}>How it works</a>
                 <a href="# About-Us" onClick={(e)=> {e.preventDefault();scrollToSection ('About-Us');}}>About Us</a>
                 <a href="# Partners" onClick={(e)=>{e.preventDefault();scrollToSection ('Partners');}}>Partners</a>
-                <a href="#contact" onClick={(e)=>{e.preventDefault(); scrollToSection ('contact');}}>Contacts</a>
+                <a href="#footer" onClick={(e)=>{e.preventDefault(); scrollToSection ('footer');}}>Contacts</a>
             </div>
         </div>
             <div className='Recycling-context'>
