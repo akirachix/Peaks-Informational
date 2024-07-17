@@ -8,6 +8,7 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 function Contact(){
     return(
         
+        <div id='contact'>
         <div className='footer'>
             <h3>Contact Us On</h3>
             <br/>
@@ -32,6 +33,7 @@ function Contact(){
             <div className='url'>
                 <p>@2024reversetaka.com</p>
             </div>
+        </div>
         </div>
     );
 }

@@ -6,7 +6,7 @@ import { BsMenuApp } from "react-icons/bs";
 const About = ()=>{
     return(
         
-        
+        <div id='About-Us'>
         <div className='About'> 
             <div>
                 <h3> About us</h3>
@@ -36,6 +36,8 @@ The damage caused<br></br>by fast fashion to the environment is a big fact, so t
             </div>
 
         </div>    
+        </div>
+        
 );
 }
 
