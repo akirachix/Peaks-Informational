@@ -4,7 +4,7 @@ const Partners =()=>{
         
 
         
-        <div id='Partners'>  
+        <div id='partners' className='partners'>  
             <h1>PARTNERSHIP</h1> 
         <div className='mainimages'>
            <div className='images'>

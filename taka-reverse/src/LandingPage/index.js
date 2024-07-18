@@ -34,10 +34,10 @@ function Navbar(){
                     <span></span>
             </div>
             <div className=  {`show-nav ${isMenuOpen ? 'active': ''}`}>
-                <a href="#LandingPage" onClick={(e)=>{e.preventDefault(); scrollToSection('LandingPage');}}> Home</a>
+                <a href="#landingPage" onClick={(e)=>{e.preventDefault(); scrollToSection('landingPage');}}> Home</a>
                 <a href="# howitworks-container" onClick={(e)=> {e.preventDefault();scrollToSection ('howitworks-container');}}>How it works</a>
-                <a href="# About-Us" onClick={(e)=> {e.preventDefault();scrollToSection ('About-Us');}}>About Us</a>
-                <a href="# Partners" onClick={(e)=>{e.preventDefault();scrollToSection ('Partners');}}>Partners</a>
+                <a href="# about-us" onClick={(e)=> {e.preventDefault();scrollToSection ('about-us');}}>About Us</a>
+                <a href="# partners" onClick={(e)=>{e.preventDefault();scrollToSection ('partners');}}>Partners</a>
                 <a href="#footer" onClick={(e)=>{e.preventDefault(); scrollToSection ('footer');}}>Contacts</a>
             </div>
         </div>
