@@ -4,14 +4,16 @@ import About from './About-Us';
 import './App.css';
 import Partners from './Partners';
 import Contact from './Contacts';
-import LandingPage from './LandingPage'
+import Navbar from './Navbar ';
+import Home from './LandingPage';
 
 
 
 function App() {
   return (
     <div>
-    <LandingPage/>
+    <Navbar/>
+    <Home/>
     <Howitworks/> 
     <About/> 
     <Partners/> 
