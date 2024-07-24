@@ -17,12 +17,12 @@
     width: 20%;
     height: 30%;
 }
-.partners h1{
+#partners h1{
     text-align: center;
     margin-top: 2%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.partners p{
+#partners p{
     font-size: 23px;
     color: #000;
     text-align: center;
@@ -50,7 +50,7 @@ body.LandingPage{
 }
 
 @media screen and (max-width: 480px) {
-   .partners h1{
+   #partners h1{
         text-align: center;
         font-size: 25px;
     }
@@ -60,7 +60,7 @@ body.LandingPage{
         
         
     }
-    .partners p{
+    #partners p{
         font-size: 16px;
         text-align: center;
     }
@@ -96,7 +96,7 @@ body.LandingPage{
       height: 900px;
     }
   
-  .partners  p {
+  #partners  p {
       text-align: center;
       font-size: 18px;
     }
@@ -116,7 +116,7 @@ body.LandingPage{
     }
   }
 @media screen and (min-width: 481px) and (max-width:564px){
-   .partners h1{
+   #partners h1{
         text-align: center;
         font-size: 30px;
     }
@@ -142,7 +142,7 @@ body.LandingPage{
     }
 }
 @media screen and (min-width: 565px) and (max-width:768px){
-   .partners h1{
+   #partners h1{
         text-align: center;
         font-size: 40px;
     }
@@ -151,7 +151,7 @@ body.LandingPage{
         justify-content: center;
     
     }
-   .partners p{
+   #partners p{
         font-size: 25px;
     } 
     .rotary{
@@ -174,7 +174,7 @@ body.LandingPage{
     }
 }
 @media screen and (min-width: 769px) and (max-width:925px){
-   .partners h1{
+   #partners h1{
         text-align: center;
         font-size: 45px;
     }
@@ -183,7 +183,7 @@ body.LandingPage{
         display: grid;
         grid-template-columns: 1fr;
     }
-   .partners p{
+   #partners p{
         font-size: 35px;
         
     } 
@@ -206,7 +206,7 @@ body.LandingPage{
     }
 }
 @media screen and (min-width: 912px) and (max-width: 1000px) {
-   .partners h1 {
+   #partners h1 {
       text-align: center;
       font-size: 55px;
     }
@@ -218,7 +218,7 @@ body.LandingPage{
       grid-gap: 20px;
     }
   
-   .partners p {
+   #partners p {
       font-size: 40px;
     }
   
@@ -253,7 +253,7 @@ body.LandingPage{
     }
   }
 @media screen and (min-width: 926px) and (max-width:1300px){
-   .partners h1{
+   #partners h1{
         text-align: center;
         font-size: 35px;
     }
@@ -262,7 +262,7 @@ body.LandingPage{
         justify-content: center;
         gap: 5%;
     }
-   .partners p{
+   #partners p{
         font-size: 20px;
     } 
     .mainimages{

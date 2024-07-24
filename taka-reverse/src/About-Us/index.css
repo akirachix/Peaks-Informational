@@ -1,30 +1,30 @@
-.About{
+#about-us{
     background-color: aliceblue;
     margin-right: 4%;
     margin-left: 4%;
     height: 890px;
 }
-.About .icons{
+#about-us .icons{
     display: flex;
     justify-content: center;
     white-space: 50px;
 
 
 }
-.About p{
+#about-us p{
     font-size: 30px;
     margin-left: 10%;
     margin-top: 3%;
     color: #000;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.About .img{
+#about-us .img{
     height: 150px;
     width: 150px;
     justify-content: space-between;
     gap: 40%;
 }
-.About h3{
+#about-us h3{
     text-align: center;
     padding-top: 5%;
     font-size: 35px;
@@ -37,7 +37,7 @@ figcaption{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
  @media screen and ( min-width:280px ) and (max-width:675px){
-   .About .icons{
+   #about-us .icons{
         display: flex;
         justify-content: center;
         white-space: 50px;
@@ -45,7 +45,7 @@ figcaption{
         grid-template-columns: auto ;
     
     }
-   .About p{
+   #about-us p{
         font-size: 30px;
         margin-left: 10%;
         margin-top: 1%;
@@ -56,13 +56,13 @@ figcaption{
         
       
     }
-   .About img{
+   #about-us img{
        
 
         height: 70rem;
         width: 500rem;
     }
-   .About h3{
+   #about-us h3{
         margin-bottom: 10%;
         text-align: center;
         margin-bottom: 1%;
@@ -80,7 +80,7 @@ figcaption{
   
  }
  @media screen and ( min-width:412px ) and (max-width:915px){
-  .About .icons{
+  #about-us .icons{
         display: flex;
         justify-content: center;
         white-space: 50px;
@@ -89,7 +89,7 @@ figcaption{
         grid-template-columns: auto ;
     
     }
-   .About  p{
+   #about-us  p{
         font-size: 30px;
         margin-left: 10%;
         margin-top: 1%;
@@ -100,7 +100,7 @@ figcaption{
         
       
     }
-   .About img{
+   #About-Us img{
         height: 80px;
         width: 80px;
         justify-content: space-between;
@@ -109,7 +109,7 @@ figcaption{
         height: 85px;
         width: 85px;
     }
-  .About h3{
+  #about-us h3{
         margin-bottom: 10%;
         text-align: center;
         margin-bottom: 1%;
@@ -125,7 +125,7 @@ figcaption{
 }
  
 @media screen and ( min-width:412px ) and (max-width:915px){
-  .About .icons{
+  #about-us .icons{
         display: flex;
         justify-content: center;
         white-space: 50px;
@@ -133,7 +133,7 @@ figcaption{
         grid-template-columns: auto auto auto;
     
     }
-  .About p{
+  #about-us p{
         font-size: 30px;
         margin-left: 10%;
         margin-top: 1%;
@@ -144,13 +144,13 @@ figcaption{
         
       
     }
-   .About .img{
+   #about-us .img{
         height: 150px;
         width: 150px;
         justify-content: space-between;
         gap: 40%;
     }
-   .About h3{
+   #about-us h3{
         margin-bottom: 10%;
         text-align: center;
         margin-bottom: 1%;
@@ -166,13 +166,13 @@ figcaption{
 }
 
 @media screen and ( min-width:912px ) and (max-width:1368px){
-  .About .icons{
+  #about-us .icons{
         display: flex;
         justify-content: center;
         white-space: 50px;
     
     }
-   .About p{
+   #about-us p{
         font-size: 30px;
         margin-left: 10%;
         margin-top: 1%;
@@ -182,13 +182,13 @@ figcaption{
         
       
     }
-  .About .img{
+  #about-us .img{
         height: 150px;
         width: 150px;
         justify-content: space-between;
         gap: 40%;
     }
-   .About h3{
+   #about-us h3{
         margin-bottom: 10%;
         text-align: center;
         margin-bottom: 1%;
@@ -201,7 +201,7 @@ figcaption{
     }
 }
 @media screen and ( min-width:540px ) and (max-width:720px){
-   .About .icons{
+   #about-us .icons{
         display: flex;
         justify-content: center;
        
@@ -209,7 +209,7 @@ figcaption{
         grid-template-rows: auto;
     
     }
-  .About  p{
+  #about-us  p{
         font-size: 30px;
         margin-left: 10%;
         margin-top: 1%;
@@ -221,7 +221,7 @@ figcaption{
         
       
     }
- .About .img{
+ #about-us .img{
         height: 150px;
         width: 150px;
         justify-content: space-between;
@@ -229,7 +229,7 @@ figcaption{
 
         gap: 10%;
     }
-   .About h3{
+   #about-us h3{
         margin-bottom: 10%;
         text-align: center;
         margin-bottom: 1%;
@@ -243,14 +243,14 @@ figcaption{
 }
 
 @media screen and ( min-width:280px ) and (max-width:653px){
-   .About .icons{
+   #about-us .icons{
         display: flex;
         justify-content: center;
         white-space: 50px;
         flex-wrap: wrap;
     
     }
-   .About p{
+   #about-us p{
         font-size: 30px;
         margin-left: 10%;
         margin-top: 1%;
@@ -262,13 +262,13 @@ figcaption{
         
       
     }
-   .About .img{
+   #about-us .img{
         height: 100px;
         width: 100px;
         text-align: center;
         gap: 8%;
     }
-   .About h3{
+   #about-us h3{
         margin-bottom: 10%;
         text-align: center;
         margin-bottom: 1%;
@@ -285,30 +285,26 @@ figcaption{
 }
 
 @media screen and ( min-width:600px ) and (max-width:1024px){
-   .About .icons{
+   #about-us .icons{
         display: flex;
         justify-content: center;
         white-space: 50px;
     
     }
-   .About p{
+   #about-us p{
         margin-left: 10%;
         margin-top: 1%;
         margin-left: 5%;
         margin-right: 5%;
-        
-        font-size: x-small;
-        
-        
       
     }
-   .About .img{
+   #about-us .img{
         height: 150px;
         width: 150px;
         justify-content: space-between;
         gap: 40%;
     }
- .About h3{
+ #about-us h3{
         margin-bottom: 10%;
         text-align: center;
         margin-bottom: 1%;
@@ -324,13 +320,13 @@ figcaption{
 
 }
 @media screen and ( min-width:800px ) and (max-width:1300px){
-   .About .icons{
+   #about-us .icons{
         display: flex;
         justify-content: center;
         white-space: 50px;
     
     }
-   .About p{
+   #about-us p{
         font-size: 30px;
         margin-left: 10%;
         margin-top: 1%;
@@ -341,13 +337,13 @@ figcaption{
         
       
     }
-    .About .img{
+    #about-us .img{
         height: 150px;
         width: 150px;
         justify-content: space-between;
         justify-content: center;
     }
-   .About h3{
+   #about-us h3{
         margin-bottom: 10%;
         text-align: center;
         margin-bottom: 1%;
