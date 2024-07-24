@@ -2,7 +2,9 @@ import './index.css'
 const Partners =()=>{
     return(
         
-        <div className='partners'>  
+
+        
+        <div id='partners' className='partners'>  
             <h1>PARTNERSHIP</h1> 
         <div className='mainimages'>
            <div className='images'>
@@ -15,6 +17,7 @@ const Partners =()=>{
         </div>
         </div>
         </div>
+        
     )
 }
 export default Partners
